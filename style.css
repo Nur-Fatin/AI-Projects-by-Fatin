@@ -6,13 +6,9 @@ body {
 
 #home {
   background-color:  #7600bc;
-  padding-bottom: 1cm;
-  /* margin-left:-1cm;
-  margin-right:-1cm; */
-  margin-top:-1cm;
-  padding-top: 2cm;
-  padding-bottom: 2cm;
-  height: 5mm;
+  padding: 35px 0; 
+  height: 8%;      
+  margin: 0;  
  }
 
 .topmenu {
@@ -66,11 +62,11 @@ body {
   align-items: center;
   position: fixed;
   top: 0;
+  left: 0;            
+  right: 0;  
   width: 100%;
-  z-index: 1000; /* makes sure it stays on top of other content */
+  z-index: 1000; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  margin-left: 0px !important;
-  margin-right: 0px !important;
 }
 
 /* Titles */

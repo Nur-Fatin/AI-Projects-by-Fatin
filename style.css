@@ -7,8 +7,8 @@ body {
 #home {
   background-color:  #7600bc;
   padding-bottom: 1cm;
-  margin-left:-1cm;
-  margin-right:-1cm;
+  /* margin-left:-1cm;
+  margin-right:-1cm; */
   margin-top:-1cm;
   padding-top: 2cm;
   padding-bottom: 2cm;
@@ -64,6 +64,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* makes sure it stays on top of other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* Titles */
@@ -94,6 +101,7 @@ h2 {
 
 .container {
   display: flex;
+  margin-top: 130px;
 }
 
 /* About Me */

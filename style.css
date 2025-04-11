@@ -44,7 +44,7 @@ body {
 }
 
 .profile_name .contact_info {
-  font-size: 15px;
+  font-size: 20px;
   font-style: italic;
   display: flex;
   align-items: center;
@@ -54,7 +54,7 @@ body {
 }
 
 .contact_info img {
-  width:27px;
+  width:30px;
   margin-right: 10px;
   float:left;
 }

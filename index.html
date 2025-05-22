@@ -1,272 +1,376 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <title>AI Projects by Fatin</title>
-    <link rel="stylesheet" href="./style.css"/>
-    <script src="./script.js"></script>
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <header>
-      <nav>
-        <div id="home" class="navbar-container">
-          <div class="profile_name">
-            Nur Fatin
-            <div class="contact_info">
-              <img src="images/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-              <a href="mailto:nur_fatin@engineer.com" style="color: white;">nur_fatin@engineer.com</a>
-            </div>
-            <div style="clear:both;"></div>
-            <div class="contact_info">
-              <img src="images/linkedin.png" alt="https://icons8.com/icons/set/linkedin"/>
-              <a href="https://www.linkedin.com/in/nurfatin2020/" target="_blank" style="color: white;">@nurfatin2020</a>
-            </div>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>AI Projects by Fatin</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/profile.png" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Nur Fatin</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/nurfatin2020/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:nur_fatin@engineer.com" class="email"><i class="bi bi-envelope-open-heart-fill"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#skills"><i class="bi bi-tools navicon"></i> Skills</a></li>
+        <li><a href="#portfolio"><i class="bi bi-robot navicon"></i> AI Projects</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>🚀 My AI Journey!</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-8 content">
+            <h2>Software Developer 🚀 | AI Product Manager in Progress 🎓 | Learning AI & Helping Others Understand it – One Day at a Time! 🤖</h2>
+            <p class="fst-italic py-3">
+              I started my career in the business world 💼, where I saw firsthand how technology transforms operations 📊⚡. This sparked my curiosity and, combined with my love for problem-solving 🧩, led me to dive into software engineering field in 2021.
+            </p>
+            <p class="py-3">
+              💡 Instead of just analyzing problems, I wanted to build real-world solutions! So, I took the leap and joined a tech startup as a developer 🚀, working on scalable, data-heavy applications for government agencies 🏛️📍. These challenges sharpened my skills in complex problem-solving—a must for AI & machine learning!
+            </p>
+             <p class="py-3">
+              ✨ Fast forward three years, and I’m now stepping into AI automation 🤖⚡— where technology meets business impact. My mission? To create AI solutions that boost efficiency, drive profitability, and deliver real-world value! 💰📈
+            </p>
           </div>
-          <div class="topdiv">
-            <a class="topmenu" href="#about-me">About Me</a>
-            <a class="topmenu" href="#skills">Skills</a>
-            <a class="topmenu" href="#projects">AI Projects</a>
-            <a class="topmenu" href="#recommendations">Recommendations</a>
-          </div>
-        </div>    
-      </nav>
-    </header> 
-    <!-- About Me -->
-    <section id="about-me" class="container">
-      <div>
-        <img src="images/profile.png" class="profile_image"/>
+        </div>
+
       </div>
 
-      <div style="
-      padding-right: 30px; 
-      max-width: 60%;
-      line-height: 1.6;
-      text-align: justify;
-      ">
-        <h1>
-          🚀 Here is My AI Journey!
-        </h1>
-        <br>
-        <p>
-          I started my career in the business world 💼, where I saw firsthand how technology transforms operations 📊⚡. This sparked my curiosity and, combined with my love for problem-solving 🧩, led me to dive into software engineering in 2021.
-        </p><br>
-        <p>
-          💡 Instead of just analyzing problems, I wanted to build real-world solutions! So, I took the leap and joined a tech startup 🚀, working on scalable, data-heavy applications for government agencies 🏛️📍. These challenges sharpened my skills in complex problem-solving—a must for AI & machine learning!
-        </p><br>
-        <p>
-          ✨ Fast forward three years, and I’m now stepping into AI automation 🤖⚡—where technology meets business impact. My mission? To create AI solutions that boost efficiency, drive profitability, and deliver real-world value! 💰📈
-        </p><br>
-      </div>
-    </section>
-    <!-- Skills -->
-    <section id="skills">
-      <h2>Skills</h2>
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+      </div><!-- End Section Title -->
+
       <div style="clear:both;"></div>
-      <div class="all_skills">
-        <div class="skill">
-          <img src="images/html5.png"/>
-          <h3>HTML</h3>
-        </div>  
+        <div class="all_skills row gy-4 justify-content-center">
+          <div class="skill">
+            <img src="assets/img/html5.png"/>
+            <h3>HTML</h3>
+          </div>  
 
-        <div class="skill">
-          <img src="images/CSS3.png"/>
-          <h3>CSS</h3>
-        </div> 
+          <div class="skill">
+            <img src="assets/img/CSS3.png"/>
+            <h3>CSS</h3>
+          </div> 
 
-        <div class="skill">
-          <img src="images/js.jpeg"/>
-          <h3>JavaScript</h3>
-        </div>  
+          <div class="skill">
+            <img src="assets/img/js.jpeg"/>
+            <h3>JavaScript</h3>
+          </div>  
 
-        <div class="skill">
-          <img src="images/Angular.png"/>
-          <h3>Angular</h3>
-        </div>  
+          <div class="skill">
+            <img src="assets/img/Angular.png"/>
+            <h3>Angular</h3>
+          </div>  
 
-        <div class="skill">
-          <img src="images/Ionic.png"/>
-          <h3>Ionic</h3>
-        </div>  
+          <div class="skill">
+            <img src="assets/img/Ionic.png"/>
+            <h3>Ionic</h3>
+          </div>  
 
-        <div class="skill">
-          <img src="images/Python.png"/>
-          <h3>Python</h3>
-        </div>  
+          <div class="skill">
+            <img src="assets/img/Python.png"/>
+            <h3>Python</h3>
+          </div>  
 
-        <div class="skill">
-          <img src="images/Django.png"/>
-          <h3>Django</h3>
-        </div>  
+          <div class="skill">
+            <img src="assets/img/Django.png"/>
+            <h3>Django</h3>
+          </div>  
 
-        <div class="skill">
-          <img src="images/PHP.png"/>
-          <h3>PHP</h3>
-        </div>  
+          <div class="skill">
+            <img src="assets/img/PHP.png"/>
+            <h3>PHP</h3>
+          </div>  
 
-        <div class="skill">
-          <img src="images/Laravel.png"/>
-          <h3>Laravel</h3>
-        </div>  
+          <div class="skill">
+            <img src="assets/img/Laravel.png"/>
+            <h3>Laravel</h3>
+          </div>  
 
-        <div class="skill">
-          <img src="images/PostgresSQL.png"/>
-          <h3>PostgreSQL</h3>
-        </div>  
+          <div class="skill">
+            <img src="assets/img/PostgresSQL.png"/>
+            <h3>PostgreSQL</h3>
+          </div>  
 
-        <div class="skill">
-          <img src="images/Git.png"/>
-          <h3>Git</h3>
-        </div>  
+          <div class="skill">
+            <img src="assets/img/Git.png"/>
+            <h3>Git</h3>
+          </div>  
 
-        <div class="skill">
-          <img src="images/Jira.png"/>
-          <h3>JIRA</h3>
-        </div>  
+          <div class="skill">
+            <img src="assets/img/Jira.png"/>
+            <h3>JIRA</h3>
+          </div>  
         <!-- Add more skills here -->
       </div>
-    </section>
-    <!-- Projects -->
-    <section class="projects" id="projects">
-      <h2>
-        AI Projects
-      </h2>
-      <div style="clear:both;"></div>
-        <div id="projects-container" class="projects-container">
-          <!-- Project 1 -->
-          <div class="project-card">
-            <h3>AI-Powered Chatbot for Customer Support</h3>
-            <ul>
-                <li>Developed a chatbot using NLP (Natural Language Processing) for automated 24/7 customer support in a retail business.</li>
-                <li>Integrated with business systems to provide real-time responses to common customer queries, improving customer satisfaction.</li>
-                <li>Used Python, Flask, and IBM Watson Assistant for chatbot development.</li>
-            </ul>
-          </div>
-          <hr>
-          <!-- Project 2 -->
-          <div class="project-card">
-            <h3>AI-Powered Sentiment Analysis Tool</h3>
-            <ul>
-                <li>Built a sentiment analysis tool that classifies text into positive, negative, or neutral categories.</li>
-                <li>Implemented NLP techniques and machine learning models like Naive Bayes and SVM to analyze customer feedback and social media posts.</li>
-                <li>Used Python, NLTK library, and scikit-learn for model training and evaluation.</li>
-            </ul>
-          </div>
-          <hr>
-          <!-- Project 3 -->
-          <div class="project-card">
-            <h3>AI-Based Personalized Recommendation System</h3>
-            <ul>
-                <li>Developed a recommendation engine to personalize product suggestions based on user data and past interactions.</li>
-                <li>Utilized collaborative filtering and content-based filtering algorithms to enhance user experience on an e-commerce platform.</li>
-                <li>Implemented in Python using libraries like Pandas and TensorFlow for machine learning model training.</li>
-            </ul>
-          </div>
-          <hr>
-          <!-- Project 4 -->
-          <div class="project-card">
-            <h3>AI-Powered Medical Diagnosis Assistant</h3>
-            <ul>
-                <li>Created an AI system for detecting medical conditions from X-rays and MRI images.</li>
-                <li>Used deep learning techniques with Convolutional Neural Networks (CNN) to analyze images for anomalies like tumors or fractures.</li>
-                <li>Built with Python, TensorFlow, Keras, and OpenCV for image processing and model training.</li>
-            </ul>
-          </div>
-          <hr>
-          <!-- Project 5 -->
-          <div class="project-card">
-            <h3>AI-Powered Financial Fraud Detection System</h3>
-            <ul>
-                <li>Developed an AI system to detect and prevent financial fraud by analyzing transaction patterns and anomalies in real-time.</li>
-                <li>Implemented machine learning algorithms such as Random Forest and XGBoost to flag suspicious activities.</li>
-                <li>Used Python, scikit-learn, and pandas for data analysis and model building.</li>
-            </ul>
-          </div>
-    </div>
-    </section>
-    <div style="clear:both;"></div>
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod ipsum id justo fermentum, sed sodales turpis eleifend.
-          <span>&#8221;</span>
+   
+    </section><!-- /Skills Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2> AI Projects</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
         </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nunc at orci lobortis, ac posuere velit tincidunt.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Fusce ac urna vel leo malesuada auctor.
-          <span>&#8221;</span>
-        </div>
+
       </div>
-    </section>
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Add a Recommendation</legend>
 
-          <!-- Full Name (Required) -->
-          <input id="name"   type="text" placeholder="Your Full Name *" required><br/>
+    </section><!-- /Portfolio Section -->
 
-          <!-- Company Name (Required) -->
-          <input id="company" type="text" placeholder="Company Name *" required><br/>
+  </main>
 
-          <!-- Job Title (Optional) -->
-          <input id="job_title" type="text" placeholder="Job Title (Optional)"><br/>
+  <footer id="footer" class="footer position-relative light-background">
 
-          <!-- Website or LinkedIn (Optional) -->
-          <input id="url" type="url" placeholder="Website or LinkedIn (Optional)"><br/>
-
-          <!-- Message (Required) -->
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Your Message *" required></textarea><br/>
-
-        <!-- Consent Checkbox -->
-          <div>
-            <input type="checkbox" style="
-            width: 20px !important;
-            height: 20px;
-            cursor: pointer;"
-            required>
-            <span>I agree to have this recommendation featured on your website.</span>
-          </div>
-
-          <!-- Submit Button -->
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>2025</span> <strong class="px-1 sitename">AI Projects by Fatin</strong> <span>Creating the future, one AI Project at a time 🚀</span></p>
       </div>
-    </section>
-
-    <div class="iconbutton">
-      <a href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      </a>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->   
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <a href="https://bootstrapmade.com/"></a>
+      </div>
     </div>
 
-    <div class="popup" id="popup" class="flex_center">
-      <img src="images/checkmark.png"/>
-      <h3>Thank you for your kind words! <br>
-        Your recommendation means a lot. <br>
-        Wishing you all the success and happiness in return.
-      </h3>
-      <button onclick="showPopup(false)">OK</button>
-    </div> 
+  </footer>
 
-    <footer>
-      <p>© 2025 AI Projects by Fatin. Creating the future, one AI Project at a time 🚀</p>
-    </footer>
-  </body>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>

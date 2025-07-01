@@ -227,3 +227,42 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+// Password modal functionality
+const correctPassword = "LeadWithHeart"; 
+let requestedType = "";
+
+function showModal(type) {
+  document.getElementById("passwordModal").style.display = "block";
+  document.getElementById("modalPassword").value = "";
+  document.getElementById("modalError").style.display = "none";
+  requestedType = type; // 'resume' or 'cert'
+}
+
+function closeModal() {
+  document.getElementById("passwordModal").style.display = "none";
+}
+
+function checkPassword() {
+  const entered = document.getElementById("modalPassword").value;
+
+  if (entered === correctPassword) {
+    if (requestedType === 'resume') {
+      const fileUrl = 'assets/Fatin_Product Manager_Resume.pdf';
+      const link = document.createElement('a');
+      link.href = fileUrl;
+      link.download = fileUrl.split('/').pop();
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } else if (requestedType === 'cert') {
+      // ✅ Securely open your Google Drive folder
+      window.open('https://drive.google.com/drive/folders/1ERynLX1yyYAN1QoqkBylqegMPQ5BnFuP?usp=sharing', '_blank');
+    }
+
+    closeModal();
+  } else {
+    document.getElementById("modalError").style.display = "block";
+  }
+}
+

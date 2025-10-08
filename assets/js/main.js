@@ -229,7 +229,7 @@
 })();
 
 // Password modal functionality
-const correctPassword = "LeadWithHeart"; 
+const correctPassword = "StayAutomated"; 
 let requestedType = "";
 
 function showModal(type) {
@@ -248,7 +248,7 @@ function checkPassword() {
 
   if (entered === correctPassword) {
     if (requestedType === 'resume') {
-      const fileUrl = 'assets/Fatin_Product Manager_Resume.pdf';
+      const fileUrl = 'assets/Fatin_AI Developer_Resume.pdf';
       const link = document.createElement('a');
       link.href = fileUrl;
       link.download = fileUrl.split('/').pop();
